@@ -14,9 +14,15 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Enemy","order":1,"path":"folders/Entity/Enemy.yy",},
+    {"name":"Entity","order":17,"path":"folders/Entity.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_enemy_parent","order":1,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
+    {"name":"spr_enemy","order":2,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"obj_game_controller","order":2,"path":"objects/obj_game_controller/obj_game_controller.yy",},
+    {"name":"check_for_player","order":1,"path":"scripts/check_for_player/check_for_player.yy",},
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
   ],
 }
