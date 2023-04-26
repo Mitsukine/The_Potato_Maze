@@ -43,7 +43,7 @@ function collision() {
 		var _disx = abs(_tx - x);
 		var _disy = abs(_ty - y);
 		
-		//move as far as in xy before hittinf wall
+		//move as far as in xy before hitting wall
 		repeat (_disx){
 			if !place_meeting (x + sign(_tx -x), y, obj_wall) x += sign (_tx - x);
 		} 
