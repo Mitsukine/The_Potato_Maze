@@ -11,3 +11,6 @@ global.mp_grid = mp_grid_create (0, 0, _w, _h, TS, TS);
 
 //add solid instance to grid
 mp_grid_add_instances(global.mp_grid, obj_wall, false);
+
+mp_grid_add_instances(global.mp_grid, obj_start, false);
+mp_grid_add_instances(global.mp_grid, obj_exit, false);

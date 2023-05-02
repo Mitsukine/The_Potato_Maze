@@ -1,11 +1,11 @@
 {
   "FolderOrderSettings": [
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
-    {"name":"Enemy","order":5,"path":"folders/Objects/Enemy.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
+    {"name":"Enemy","order":5,"path":"folders/Objects/Enemy.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
@@ -19,6 +19,7 @@
   "ResourceOrderSettings": [
     {"name":"spr_exit","order":4,"path":"sprites/spr_exit/spr_exit.yy",},
     {"name":"obj_enemy_parent","order":1,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
+    {"name":"obj_camera","order":6,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_start","order":3,"path":"objects/obj_start/obj_start.yy",},
     {"name":"rm_start","order":1,"path":"rooms/rm_start/rm_start.yy",},
     {"name":"spr_enemy","order":2,"path":"sprites/spr_enemy/spr_enemy.yy",},
