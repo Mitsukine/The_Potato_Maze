@@ -12,7 +12,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Enemy",
-    "path": "folders/Entity/Enemy.yy",
+    "path": "folders/Objects/Enemy.yy",
   },
   "parentObjectId": null,
   "persistent": false,

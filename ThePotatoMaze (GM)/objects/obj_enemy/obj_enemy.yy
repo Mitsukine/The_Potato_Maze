@@ -4,12 +4,13 @@
   "name": "obj_enemy",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Enemy",
-    "path": "folders/Entity/Enemy.yy",
+    "path": "folders/Objects/Enemy.yy",
   },
   "parentObjectId": {
     "name": "obj_enemy_parent",
