@@ -15,6 +15,7 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Fonts","order":9,"path":"folders/Objects/Fonts.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_exit","order":4,"path":"sprites/spr_exit/spr_exit.yy",},
@@ -22,6 +23,7 @@
     {"name":"obj_camera","order":6,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_start","order":3,"path":"objects/obj_start/obj_start.yy",},
     {"name":"rm_start","order":1,"path":"rooms/rm_start/rm_start.yy",},
+    {"name":"obj_timer","order":7,"path":"objects/obj_timer/obj_timer.yy",},
     {"name":"spr_enemy","order":2,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"obj_exit","order":4,"path":"objects/obj_exit/obj_exit.yy",},
