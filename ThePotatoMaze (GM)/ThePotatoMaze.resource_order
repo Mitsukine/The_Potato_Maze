@@ -6,6 +6,7 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Enemy","order":5,"path":"folders/Objects/Enemy.yy",},
+    {"name":"Fonts","order":9,"path":"folders/Objects/Fonts.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
@@ -15,7 +16,6 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Fonts","order":9,"path":"folders/Objects/Fonts.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_exit","order":4,"path":"sprites/spr_exit/spr_exit.yy",},
@@ -28,6 +28,7 @@
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"obj_exit","order":4,"path":"objects/obj_exit/obj_exit.yy",},
     {"name":"obj_game","order":2,"path":"objects/obj_game/obj_game.yy",},
+    {"name":"PixelHour","order":1,"path":"fonts/PixelHour/PixelHour.yy",},
     {"name":"spr_start","order":3,"path":"sprites/spr_start/spr_start.yy",},
     {"name":"check_for_player","order":1,"path":"scripts/check_for_player/check_for_player.yy",},
     {"name":"rm_win","order":2,"path":"rooms/rm_win/rm_win.yy",},
