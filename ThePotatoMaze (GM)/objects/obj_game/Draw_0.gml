@@ -42,7 +42,7 @@ PRESS ESC TO QUIT THE GAME");
 	break;
 
 	case rm_level:
-		draw_text(1000,1120, "LIVES:" +string(lives))
+		draw_text(1000,1120, "LIVES:" +string(global.life))
 		break;
 }
 

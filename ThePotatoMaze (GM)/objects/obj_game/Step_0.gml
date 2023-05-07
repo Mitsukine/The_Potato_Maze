@@ -1,4 +1,3 @@
-if (room==rm_level){
 if(keyboard_check_pressed(ord("R"))){
 	switch (room){
 	
@@ -16,10 +15,6 @@ if(keyboard_check_pressed(ord("R"))){
 		}
 	}
 
-	if(lives <= 0){
-		room_goto(rm_lose);
-	}
-}
 if (keyboard_check_pressed(vk_escape)){
 	if (room == rm_lose){
 			game_end();
@@ -29,3 +24,4 @@ if (keyboard_check_pressed(vk_escape)){
 			game_end();
 	}
 }
+

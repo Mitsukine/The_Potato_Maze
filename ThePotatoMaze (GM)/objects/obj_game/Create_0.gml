@@ -6,8 +6,9 @@ enum states {
 
 
 
-global.mp_grid = 0;
+//global.mp_grid = 0;
 
-lives= 3;
+global.life = 3;
+
 
 draw_set_font(font_PlayMeGames)

@@ -26,6 +26,7 @@
     {"name":"spr_player_dead","order":6,"path":"sprites/spr_player_dead/spr_player_dead.yy",},
     {"name":"obj_timer","order":7,"path":"objects/obj_timer/obj_timer.yy",},
     {"name":"spr_player_walk","order":5,"path":"sprites/spr_player_walk/spr_player_walk.yy",},
+    {"name":"spr_chest","order":7,"path":"sprites/spr_chest/spr_chest.yy",},
     {"name":"spr_enemy","order":2,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"obj_exit","order":4,"path":"objects/obj_exit/obj_exit.yy",},
@@ -35,6 +36,7 @@
     {"name":"check_for_player","order":1,"path":"scripts/check_for_player/check_for_player.yy",},
     {"name":"rm_win","order":2,"path":"rooms/rm_win/rm_win.yy",},
     {"name":"rm_lose","order":3,"path":"rooms/rm_lose/rm_lose.yy",},
+    {"name":"Object10","order":10,"path":"objects/Object10/Object10.yy",},
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
   ],
 }
