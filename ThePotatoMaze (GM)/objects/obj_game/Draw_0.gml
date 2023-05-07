@@ -11,7 +11,7 @@ UP
 LEFT
 RIGHT
 DOWN
-SPACE
+OPEN
 SETTINGS");
 	draw_set_halign(fa_center)
 	break;
