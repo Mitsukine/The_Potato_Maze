@@ -1,3 +1,11 @@
+enum states {
+	IDLE,
+	WALK,
+	DEAD, 
+}
+
+
+
 global.mp_grid = 0;
 
 lives= 3;

@@ -3,6 +3,8 @@ function reset_variables(){
 	right = 0;
 	up = 0;
 	down = 0;
+	xaxis = 0;
+	yaxis = 0;
 }
 
 function get_input() {
@@ -13,20 +15,23 @@ function get_input() {
 }
 
 function calc_movement() {
-	var _xaxis = right - left;
-	var _yaxis = down - up;
+	xaxis = right - left;
+	yaxis = down - up;
 	
-	if _xaxis != 0 or _yaxis != 0 {
+	if xaxis != 0 facing = xaxis;
+	
+	
+	if xaxis != 0 or yaxis != 0 {
 		//get direction
-		var _dir = point_direction(0,0, _xaxis, _yaxis);
+		var _dir = point_direction(0,0, xaxis, yaxis);
 		
 		//get distance of movement
-		_xaxis = lengthdir_x(walk_speed, _dir);
-		_yaxis = lengthdir_y(walk_speed, _dir);
+		xaxis = lengthdir_x(walk_speed, _dir);
+		yaxis = lengthdir_y(walk_speed, _dir);
 		
 		//add movement to position
-		x += _xaxis;
-		y += _yaxis;
+		x += xaxis;
+		y += yaxis;
 	}
 }
 
@@ -50,4 +55,17 @@ function collision() {
 		repeat (_disy){
 			if !place_meeting (x, y + sign(_ty -y), obj_wall) y += sign (_ty - y);
 		} 
+}
+
+function animation() {
+	if xaxis !=0 or yaxis !=0 {
+		sprite_index = spr_player_walk;
+	} else {
+		sprite_index = spr_player_idle;
+	}
+	
+	//update position
+		xp = x;
+		yp = y;
+
 }

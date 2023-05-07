@@ -1,5 +1,5 @@
 //set grid / title size
-#macro TS	16
+#macro TS	10
 
 //get titles in room
 

@@ -22,8 +22,9 @@ SETTINGS");
 	draw_text_transformed_color(room_width/2,200,"YOU GOT FRIED!", 3,3,0,c_white,c_white,c_white,c_white,1);
 	draw_set_font(font_PlayMeGames)
 	draw_text(room_width/2,500, @"GAME OVER
-ENTER TO RESTART
-PRESS M TO RETURN TO MENU");
+PRESS R TO RESTART
+PRESS ENTER TO RETURN TO MENU
+PRESS ESC TO QUIT THE GAME");
 	draw_set_halign(fa_center);
 	break;
 	
@@ -33,8 +34,10 @@ PRESS M TO RETURN TO MENU");
 	draw_text_transformed_color(room_width/2,200,"YOU HOT SPUD!", 3,3,0,c_white,c_white,c_white,c_white,1);
 	draw_set_font(font_PlayMeGames)
 	draw_text(room_width/2,500, @"YOU WIN
-ENTER TO RESTART
-PRESS M TO RETURN TO MENU");
+PRESS R TO RESTART
+PRESS ENTER TO RETURN TO MENU
+PRESS ESC TO QUIT THE GAME");
+
 	draw_set_halign(fa_center);
 	break;
 
