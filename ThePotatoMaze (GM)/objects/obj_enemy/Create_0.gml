@@ -10,7 +10,7 @@ move_speed = 1;
 //distance where enemy stop from player
 attack_dis = 2;
 
-
+enemySprite = choose (1,2,3)
 
 //create path resource
 path = path_add();
@@ -23,3 +23,9 @@ calc_path_timer = irandom(60);
 
 
 facing = 1;
+
+switch(enemySprite){
+	case 1:
+			sprite_index = choose (spr_enemy1,spr_enemy2,spr_enemy4)
+			break;
+}	
