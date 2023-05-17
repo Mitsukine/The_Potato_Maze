@@ -1,13 +1,13 @@
 instance_destroy();
 
-if (global.life > 0)
+if (global.life > 1)
 {
 	global.life -= 1;
 	instance_create_layer(150,240, "Player", obj_player);
 }
 else
 {
-	instance_create_layer(0,0,rm_lose);
+	room_goto(rm_lose);
 }
 
 //if (global.life > 0)  switch (room) {

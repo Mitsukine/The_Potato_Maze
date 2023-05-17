@@ -8,10 +8,15 @@ function reset_variables(){
 }
 
 function get_input() {
-	if keyboard_check(ord("A")) left = 1;
-	if keyboard_check(ord("D")) right = 1;
-	if keyboard_check(ord("W")) up = 1;
-	if keyboard_check(ord("S")) down = 1;
+	//if keyboard_check(ord("A")) left = 1;
+	//if keyboard_check(ord("D")) right = 1;
+	//if keyboard_check(ord("W")) up = 1;
+	//if keyboard_check(ord("S")) down = 1;
+	
+	if keyboard_check(vk_left) left = 1;
+	if keyboard_check(vk_right) right = 1;
+	if keyboard_check(vk_up) up = 1;
+	if keyboard_check(vk_down) down = 1;
 }
 
 function calc_movement() {
@@ -55,17 +60,4 @@ function collision() {
 		repeat (_disy){
 			if !place_meeting (x, y + sign(_ty -y), obj_wall) y += sign (_ty - y);
 		} 
-}
-
-function animation() {
-	if xaxis !=0 or yaxis !=0 {
-		sprite_index = spr_player_walk;
-	} else {
-		sprite_index = spr_player_idle;
-	}
-	
-	//update position
-		xp = x;
-		yp = y;
-
 }

@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "meme2",
-  "bbox_bottom": 63,
+  "bbox_bottom": 499,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 499,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c4a7a416-4d7b-4ec5-9485-929f820193dd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"81108625-38ec-4868-b5a2-650b9b72366c",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 500,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b694be55-f09f-48cd-9d56-7ea321eeb9e5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9a72aafe-f14e-48ac-9755-9fcbb48c97e1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c4a7a416-4d7b-4ec5-9485-929f820193dd","path":"sprites/meme2/meme2.yy",},},},"Disabled":false,"id":"4e3608e3-0f82-478f-8ce0-74658cac1f0b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"81108625-38ec-4868-b5a2-650b9b72366c","path":"sprites/meme2/meme2.yy",},},},"Disabled":false,"id":"f3e8ffd0-7c18-49a6-9016-ab1d84a43fd9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 500,
 }
