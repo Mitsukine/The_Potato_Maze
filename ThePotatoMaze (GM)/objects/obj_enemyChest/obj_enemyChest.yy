@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy",
+  "name": "obj_enemyChest",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
@@ -16,7 +16,10 @@
     "name": "Enemy",
     "path": "folders/Objects/Enemy.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_enemy",
+    "path": "objects/obj_enemy/obj_enemy.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -33,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_enemy4",
-    "path": "sprites/spr_enemy4/spr_enemy4.yy",
+    "name": "spr_enemy3",
+    "path": "sprites/spr_enemy3/spr_enemy3.yy",
   },
   "spriteMaskId": null,
   "visible": true,

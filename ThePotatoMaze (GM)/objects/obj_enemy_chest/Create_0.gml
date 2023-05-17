@@ -7,4 +7,4 @@ image_index = 0;
 chestTriggered = false;
 chestOpened = false;
 
-loot = obj_enemy
+loot = obj_enemyChest
