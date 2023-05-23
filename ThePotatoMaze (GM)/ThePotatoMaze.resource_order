@@ -26,7 +26,7 @@
     {"name":"obj_meme1","order":1,"path":"objects/obj_meme1/obj_meme1.yy",},
     {"name":"spr_exit","order":4,"path":"sprites/spr_exit/spr_exit.yy",},
     {"name":"spr_enemy3","order":3,"path":"sprites/spr_enemy3/spr_enemy3.yy",},
-    {"name":"obj_enemy_parent","order":1,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
+    {"name":"obj_enemy_child","order":1,"path":"objects/obj_enemy_child/obj_enemy_child.yy",},
     {"name":"obj_enemy_chest","order":4,"path":"objects/obj_enemy_chest/obj_enemy_chest.yy",},
     {"name":"obj_camera","order":6,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_start","order":3,"path":"objects/obj_start/obj_start.yy",},

@@ -42,7 +42,7 @@
     {"id":{"name":"obj_meme1","path":"objects/obj_meme1/obj_meme1.yy",},"order":1,},
     {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},"order":4,},
     {"id":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},"order":3,},
-    {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"order":1,},
+    {"id":{"name":"obj_enemy_child","path":"objects/obj_enemy_child/obj_enemy_child.yy",},"order":1,},
     {"id":{"name":"obj_enemy_chest","path":"objects/obj_enemy_chest/obj_enemy_chest.yy",},"order":4,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":6,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":0,},

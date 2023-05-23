@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy_parent",
+  "name": "obj_enemy_child",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
