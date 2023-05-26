@@ -8,7 +8,7 @@ alert_dis = 100;
 move_speed = 1;
 
 //distance where enemy stop from player
-attack_dis = 2;
+attack_dis = 0;
 
 
 
