@@ -12,6 +12,12 @@ LEFT
 RIGHT
 DOWN
 OPEN");
+	draw_text(room_width/2,1000,
+@"Music by Marllon Silva a.k.a xDeviruchi
+
+Tileset assets by hilau
+
+Other art are personal works")
 	draw_set_halign(fa_center)
 	break;
 
