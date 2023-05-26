@@ -2,7 +2,7 @@ if (place_meeting(x,y,obj_player)) && (chestTriggered = false) {
 	if (keyboard_check(vk_space)){
 		chestTriggered = true;
 		if (loot = obj_enemyChest2) && chestOpened = false {
-			instance_create_depth(335, 690, 0, obj_enemyChest2) chestOpened = true;
+			instance_create_depth(942, 604, 0, obj_enemyChest2) chestOpened = true;
 			}
 			
 			alarm [1] = 60;

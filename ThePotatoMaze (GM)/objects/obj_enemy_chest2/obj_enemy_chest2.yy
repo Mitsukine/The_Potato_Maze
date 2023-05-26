@@ -29,7 +29,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_enemy_chest",
     "path": "sprites/spr_enemy_chest/spr_enemy_chest.yy",
