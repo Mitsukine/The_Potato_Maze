@@ -5,8 +5,8 @@ if (place_meeting(x,y,obj_player)) && (chestTriggered = false) {
 			instance_create_depth(233, 1005, 0, obj_enemyChest) chestOpened = true;
 			}
 			
-			alarm [1] = 60;
-			alarm [2] = 30;
+			alarm [1] = 45;
+			alarm [2] = 20;
 			image_index = 1;
 			depth = -y
 		}
