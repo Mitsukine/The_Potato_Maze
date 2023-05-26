@@ -1,4 +1,3 @@
-audio_play_sound(snd_LevelSong,0, true);
 
 //set grid / title size
 #macro TS	10
