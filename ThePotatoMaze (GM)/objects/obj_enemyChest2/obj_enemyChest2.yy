@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemyChest",
+  "name": "obj_enemyChest2",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_enemy3",
-    "path": "sprites/spr_enemy3/spr_enemy3.yy",
+    "name": "spr_enemy5",
+    "path": "sprites/spr_enemy5/spr_enemy5.yy",
   },
   "spriteMaskId": null,
   "visible": true,
