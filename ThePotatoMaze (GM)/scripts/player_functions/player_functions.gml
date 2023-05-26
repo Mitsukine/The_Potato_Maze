@@ -54,37 +54,10 @@ function collision() {
 		var _disy = abs(_ty - y);
 		
 		//move as far as in xy before hitting wall
-		switch (collision){
-			case obj_wall:
 		repeat (_disx){
 			if !place_meeting (x + sign(_tx -x), y, obj_wall) x += sign (_tx - x);
 		} 
 		repeat (_disy){
 			if !place_meeting (x, y + sign(_ty -y), obj_wall) y += sign (_ty - y);
 		} 
-		
-			case obj_chest:
-		repeat (_disx){
-			if !place_meeting (x + sign(_tx -x), y, obj_chest) x += sign (_tx - x);
-		} 
-		repeat (_disy){
-			if !place_meeting (x, y + sign(_ty -y), obj_chest) y += sign (_ty - y);
-		} 
-		
-			case obj_enemy_chest:
-		repeat (_disx){
-			if !place_meeting (x + sign(_tx -x), y, obj_enemy_chest) x += sign (_tx - x);
-		} 
-		repeat (_disy){
-			if !place_meeting (x, y + sign(_ty -y), obj_enemy_chest) y += sign (_ty - y);
-		} 
-		
-			case obj_enemy_chest2:
-		repeat (_disx){
-			if !place_meeting (x + sign(_tx -x), y, obj_enemy_chest2) x += sign (_tx - x);
-		} 
-		repeat (_disy){
-			if !place_meeting (x, y + sign(_ty -y), obj_enemy_chest2) y += sign (_ty - y);
-		} 
-}
 }

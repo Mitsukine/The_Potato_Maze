@@ -1,3 +1,5 @@
+audio_play_sound(snd_LevelSong,0, true);
+
 //set grid / title size
 #macro TS	10
 
@@ -13,3 +15,5 @@ global.mp_grid = mp_grid_create (0, 0, _w, _h, TS, TS);
 mp_grid_add_instances(global.mp_grid, obj_wall, false);
 
 mp_grid_add_instances(global.mp_grid, obj_exit, false);
+
+
