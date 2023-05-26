@@ -2,7 +2,7 @@
 alert = false;
 
 //distance from where the player is getting chased
-alert_dis = 160;
+alert_dis = 100;
 
 //speed while chasing player
 move_speed = 1;

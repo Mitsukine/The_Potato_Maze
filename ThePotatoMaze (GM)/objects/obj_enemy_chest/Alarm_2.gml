@@ -1,2 +1,2 @@
-alarm [2] = 3;
+alarm [2] = 2;
 visible = !visible;
