@@ -1,9 +1,9 @@
 if(keyboard_check_pressed(ord("R"))){
 	switch (room){
 	
-		case rm_level:
-			room_restart();
-		break;
+		//case rm_level:
+			//room_restart();
+		//break;
 		
 		case rm_win:
 		room_goto(rm_level);

@@ -13,18 +13,18 @@ RIGHT
 DOWN
 OPEN");
 	draw_text(room_width/2,1000,
-@"Music by Marllon Silva a.k.a xDeviruchi
+@"Music by Marllon Silva aka xDeviruchi
 
 Tileset assets by hilau
 
-Other art are personal works")
+Character Design, Dev & Coding by Mangekyo")
 	draw_set_halign(fa_center)
 	break;
 
 	case rm_lose :
 	draw_set_halign(fa_center);
 	draw_set_font(PixelHour)
-	draw_text_transformed_color(room_width/2,300,"YOU GOT FRIED!", 3,3,0,c_white,c_red,c_white,c_red,1);
+	draw_text_transformed_color(room_width/2,300,"YOU GOT FRIED", 3,3,0,c_white,c_red,c_white,c_red,1);
 	draw_set_font(font_PlayMeGames)
 	draw_text(room_width/2,750, @"GAME OVER
 PRESS R TO RESTART
@@ -36,7 +36,7 @@ PRESS ESC TO QUIT THE GAME");
 	case rm_win :
 	draw_set_halign(fa_center);
 	draw_set_font(PixelHour)
-	draw_text_transformed_color(room_width/2,300,"YOU HOT SPUD!", 3,3,0,c_green,c_green,c_green,c_green,1);
+	draw_text_transformed_color(room_width/2,300,"YOU HOT SPUD", 3,3,0,c_green,c_green,c_green,c_green,1);
 	draw_set_font(font_PlayMeGames)
 	draw_text(room_width/2,835, @"YOU WIN
 PRESS R TO RESTART
@@ -51,6 +51,6 @@ PRESS ESC TO QUIT THE GAME");
 		break;
 }
 
-if keyboard_check(vk_alt)  {
-	mp_grid_draw(global.mp_grid);
-}
+//	if keyboard_check(vk_alt)  {
+//		mp_grid_draw(global.mp_grid);
+//}

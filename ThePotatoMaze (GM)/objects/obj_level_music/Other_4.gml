@@ -1,1 +1,1 @@
-audio_play_sound(snd_LevelSong,10,true);
+audio_play_sound(snd_LevelSong,0,true);
