@@ -8,6 +8,7 @@
     {"name":"Chest","order":11,"path":"folders/Objects/Chest.yy",},
     {"name":"Enemy","order":5,"path":"folders/Objects/Enemy.yy",},
     {"name":"Fonts","order":9,"path":"folders/Objects/Fonts.yy",},
+    {"name":"Sound","order":13,"path":"folders/Objects/Sound.yy",},
     {"name":"Win GameOver Screen","order":12,"path":"folders/Objects/Win GameOver Screen.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
@@ -21,7 +22,6 @@
     {"name":"Memes","order":8,"path":"folders/Sprites/Memes.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Sound","order":13,"path":"folders/Objects/Sound.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_meme1","order":1,"path":"objects/obj_meme1/obj_meme1.yy",},
