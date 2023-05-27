@@ -41,6 +41,7 @@
   },
   "resources": [
     {"id":{"name":"obj_meme1","path":"objects/obj_meme1/obj_meme1.yy",},"order":1,},
+    {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},"order":15,},
     {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},"order":4,},
     {"id":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},"order":3,},
     {"id":{"name":"obj_enemy_child","path":"objects/obj_enemy_child/obj_enemy_child.yy",},"order":1,},
@@ -83,6 +84,7 @@
     {"id":{"name":"PixelHour","path":"fonts/PixelHour/PixelHour.yy",},"order":1,},
     {"id":{"name":"spr_start","path":"sprites/spr_start/spr_start.yy",},"order":3,},
     {"id":{"name":"snd_MenuSong","path":"sounds/snd_MenuSong/snd_MenuSong.yy",},"order":0,},
+    {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"order":14,},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},"order":0,},
     {"id":{"name":"snd_LevelSong","path":"sounds/snd_LevelSong/snd_LevelSong.yy",},"order":1,},
     {"id":{"name":"spr_potato_gameover","path":"sprites/spr_potato_gameover/spr_potato_gameover.yy",},"order":13,},

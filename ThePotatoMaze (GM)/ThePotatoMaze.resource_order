@@ -25,6 +25,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_meme1","order":1,"path":"objects/obj_meme1/obj_meme1.yy",},
+    {"name":"spr_title","order":15,"path":"sprites/spr_title/spr_title.yy",},
     {"name":"spr_exit","order":4,"path":"sprites/spr_exit/spr_exit.yy",},
     {"name":"spr_enemy3","order":3,"path":"sprites/spr_enemy3/spr_enemy3.yy",},
     {"name":"obj_enemy_child","order":1,"path":"objects/obj_enemy_child/obj_enemy_child.yy",},
@@ -59,6 +60,7 @@
     {"name":"obj_lose_music","order":3,"path":"objects/obj_lose_music/obj_lose_music.yy",},
     {"name":"PixelHour","order":1,"path":"fonts/PixelHour/PixelHour.yy",},
     {"name":"spr_start","order":3,"path":"sprites/spr_start/spr_start.yy",},
+    {"name":"obj_title","order":14,"path":"objects/obj_title/obj_title.yy",},
     {"name":"snd_LevelSong","order":1,"path":"sounds/snd_LevelSong/snd_LevelSong.yy",},
     {"name":"spr_potato_gameover","order":13,"path":"sprites/spr_potato_gameover/spr_potato_gameover.yy",},
     {"name":"check_for_player","order":1,"path":"scripts/check_for_player/check_for_player.yy",},

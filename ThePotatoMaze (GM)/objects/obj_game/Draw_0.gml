@@ -1,9 +1,7 @@
 switch(room) {
 	case rm_start:
 	draw_set_halign(fa_center);
-	draw_set_font(PixelHour)
-	draw_text_transformed_color(room_width/2,200,@"THE POTATO 
-MAZE", 3,3,0,c_green,c_green,c_green,c_green,1);
+	
 	draw_set_font(font_PlayMeGames)
 	draw_text(room_width/2,600,
 @" >> PRESS ENTER TO START <<
