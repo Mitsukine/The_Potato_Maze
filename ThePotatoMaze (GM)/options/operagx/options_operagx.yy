@@ -8,11 +8,11 @@
   "option_operagx_guid": "ec2395bc-7e4f-4b46-91af-9f34debad065",
   "option_operagx_internalShareUrl": "",
   "option_operagx_interpolate_pixels": true,
-  "option_operagx_next_version": "0.0.0.3",
+  "option_operagx_next_version": "0.0.0.4",
   "option_operagx_publicShareUrl": "https://gx.games/games/erw6gl/the-potato-escape-demo-/",
   "option_operagx_scale": 0,
   "option_operagx_team_id": "905a9890-5bdd-49bc-b6d1-dd984fcd8d03",
   "option_operagx_team_name": "MangekyoXX studio",
   "option_operagx_texture_page": "2048x2048",
-  "option_operagx_version": "0.0.0.2",
+  "option_operagx_version": "0.0.0.3",
 }
